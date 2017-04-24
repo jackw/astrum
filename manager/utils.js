@@ -38,7 +38,7 @@ module.exports = {
 
         fs.exists(path, function(r) {
             if (r) {
-                throw(new Error(chalk.red('Pattern library has already been initialized.')));
+                throw(new Error(chalk.red('Pattern library path exists or has already been initialized.')));
             }
         });
 

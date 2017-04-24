@@ -51,6 +51,8 @@ Then from within your project root initialise Astrum into a publicly accessible 
 
 `astrum init ./public/pattern-library`
 
+> The path to initialise should not exist when running the init command.
+
 Finally add your first component e.g.:
 
 `astrum new buttons/default`
